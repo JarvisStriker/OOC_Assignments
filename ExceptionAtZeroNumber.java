@@ -1,5 +1,5 @@
 import java.util.*;
-public class Exc {
+public class ExceptionAtZeroNumber {
 
 	public static void main(String[] args) {
 		try
