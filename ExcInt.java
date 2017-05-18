@@ -6,24 +6,6 @@
 	        obj.start();
 	    }	    
 	}
-	class class2 extends Thread
-	{  
-	    public void run()
-	    {
-
-	        	Thread.currentThread().setName("Class2 thread");
-	            System.out.print(Thread.currentThread().getName());
-	            try
-	            {
-	                Thread.sleep(2000);
-	            }
-	            catch(InterruptedException e)
-	            {
-	                System.out.println(e);
-	            }
-	        
-	    }
-	}
 	class class1 extends Thread
 	{ 
 	    public void run()
@@ -37,4 +19,23 @@
 	            
 	    }
 	}
+	class class2 extends Thread
+	{  
+	    public void run()
+	    {
+
+	        	Thread.currentThread().setName("Class2 thread");
+	            System.out.println(Thread.currentThread().getName());
+	            try
+	            {
+	                Thread.sleep(2000);
+	            }
+	            catch(InterruptedException e)
+	            {
+	                System.out.println(e);
+	            }
+	        
+	    }
+	}
+	
 
